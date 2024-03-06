@@ -12,5 +12,6 @@ if(NaN) console.log("if(NaN)");
 if('') console.log("if('')");
 if('javaScript') console.log("if(javaScript)");
 
+
 // false, undefined, null, 0, NaN, ''(빈 문자열) 은 Falsy 값이며
 // 이외의 모든 값은 Truethy 값이다.

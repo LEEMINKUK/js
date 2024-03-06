@@ -21,9 +21,12 @@ console.log(false && 'banana');
 var num = 1;
 
 if(num % 2 == 0)
-   console.log('짝수입니다.');
+   console.log('짝수입니다1.');
 else
-   console.log('홀수입니다.');
+   console.log('홀수입니다1.');
 
-num % 2 == 0 && console.log('짝수입니다.');
-num % 2 == 0 || console.log('홀수입니다.');
+num % 2 == 0 || console.log('짝수입니다2.');
+num % 2 == 0 && console.log('짝수입니다3.');
+
+num % 2 == 0 || console.log('홀수입니다2.');
+num % 2 != 0 && console.log('홀수입니다3.');
