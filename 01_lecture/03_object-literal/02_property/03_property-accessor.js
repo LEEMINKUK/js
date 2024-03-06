@@ -1,8 +1,8 @@
 // 03_프로퍼티 접근
 
 var dog = {
-    name : '뽀삐',
-    eat : function(food){
+    name: '뽀삐',
+    eat: function (food) {
         console.log(`${this.name}(은)는 ${food}를 맛있게 먹어요.`);
     }
 };
@@ -16,9 +16,9 @@ dog.eat('고구마');
 console.log(dog['name']);
 dog['eat']('고구마');
 
-var obj ={
-    'dash-key' : 'dash-value',   // 특수 기호가 들어간 키 값은 대괄호 표기법만 가능.
-    0 : 1
+var obj = {
+    'dash-key': 'dash-value',   // 특수 기호가 들어간 키 값은 대괄호 표기법만 가능.
+    0: 1
 };
 
 // console.log(obj.dash-key);

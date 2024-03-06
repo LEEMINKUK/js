@@ -1,9 +1,9 @@
 // 01_in 연산자
 // 프로퍼티 존재 여부 확인하기
 var student = {
-    name : '유관순',
-    age : 16,
-    test : undefined
+    name: '유관순',
+    age: 16,
+    test: undefined
 };
 
 // 존재하지 않는 프로퍼티에 접근하려 해도 에러가 발생하지 않고 undefined 를 반환
