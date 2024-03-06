@@ -10,7 +10,7 @@ var student = {
 // 프로퍼티 존재 여부를 쉽게 확인
 console.log(student.name === undefined);
 console.log(student.height === undefined);
-console.log(student.test === undefined);  // 값이 있는데 undefined 가 true인 문제가 있다.
+console.log(student.test === undefined);  // value가 undefined일 경우 undefined가 true인지 애매함.
 
 console.log("name" in student);
 console.log("height" in student);
