@@ -18,3 +18,4 @@ Student.prototype = user;
 
 const student = new Student("홍길동");
 console.log(student.activate);
+console.log(student.name);

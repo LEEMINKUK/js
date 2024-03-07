@@ -14,6 +14,8 @@ console.log(arr2);
 // 전달된 인수가 1개이고 숫자인 경우 length 프로퍼티 값이 인수인 배열을 생성
 const arr3 = new Array(10);
 console.log(arr3);
+console.log(arr3.length);
+console.log('\n');
 
 // 전달된 인수가 2개 이상이거나 숫자가 아닌 경우 인수를 요소로 갖는 배열을 생성
 const arr4 = new Array(1, 2, 3);
@@ -34,6 +36,7 @@ console.log(arr[2]);
 
 // 배열은 요소의 갯수, 즉 배열의 길이를 나타내는 length 프로퍼티를 갖는다.
 console.log(arr.length);
+console.log('\n');
 
 // 배열은 인덱스와 length 프로퍼티를 갖기 때문에 for문을 통해 순차적으로 요소에 접근할 수 있다.
 for(let i = 0; i < arr.length; i++){
