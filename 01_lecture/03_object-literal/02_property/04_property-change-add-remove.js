@@ -1,5 +1,4 @@
 // 04_프로퍼티 값 변경, 추가, 삭제
-
 var dog = {
     name: '뽀삐'
 };
@@ -19,9 +18,9 @@ console.log(dog);
 
 // 프로퍼티 삭제
 // delete 연산자는 객체의 프로퍼티를 삭제한다.
-// 만약 존재하지 않는 프로퍼티를 삭제하면 아무런 에러 없이 무시된다.
 // delete dog.age;
 delete dog['age'];
+// 만약 존재하지 않는 프로퍼티를 삭제하면 아무런 에러 없이 무시된다.
 // delete dog.something;
 delete dog['something'];
 console.log(dog);
