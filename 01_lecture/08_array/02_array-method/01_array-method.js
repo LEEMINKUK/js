@@ -65,12 +65,13 @@ console.log(front.slice(1, 3)); // 원본에 영향이 안감
 console.log(front);
 
 // splice(index, 제거수, 추가값)
-console.log(front.splice(3, 1, "React"));  // 원본에 영향이감.(직접 수정됨) , 삭제 후 삭제된 값을 알려줌.
+console.log(front.splice(3, 1, "React"));  // 원본에 영향이 감.(직접 수정됨) , 삭제 후 삭제된 값을 알려줌.
 console.log(front);
 
 // Array.prototype.join : 배열을 구분자로 결합하여 문자열로 반환
 const snackList = ['사탕', '초콜릿', '껌', '과자'];
 console.log(snackList.join());
+console.log(snackList.join('   '));
 console.log(snackList.join('/'));
 
 // Array.prototype.reverse : 배열의 순서를 뒤집음
